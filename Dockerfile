@@ -57,7 +57,7 @@ RUN apk --no-cache add --virtual=deps1 \
  && chmod 775 /usr/local/bin/antlr3 \
 
  && cd /tmp \
- && git clone https://github.com/ejurgensen/forked-daapd.git \
+ && git clone -b 25.0 https://github.com/ejurgensen/forked-daapd.git \
  && cd /tmp/forked-daapd \
  
  && autoreconf -i \
